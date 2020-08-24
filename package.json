@@ -1,0 +1,41 @@
+{
+  "name": "xtmnb-cli",
+  "version": "1.0.1",
+  "description": "a test vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "xtmnb-cli": "./bin/xtmnb-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisHanJinBo/NB-cli.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli"
+  ],
+  "author": "hanjinbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krisHanJinBo/NB-cli/issues"
+  },
+  "homepage": "https://github.com/krisHanJinBo/NB-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
